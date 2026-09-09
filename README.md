@@ -83,7 +83,7 @@ python-docx
 ### 1. 克隆仓库
 
 ```bash
-git clone https://github.com/<your-username>/<your-repo>.git
+git clone https://github.com/njuptxwj/Campus-Guide-System.git
 cd <your-repo>
 ```
 
