@@ -253,20 +253,6 @@ NODE_POS = {0: (0, 0), 1: (1, 0), 2: (2, 0)}
 
 ---
 
-## 可选：生成课程报告
-
-若需自动生成流程图与 Word 报告：
-
-```bash
-pip install python-docx
-python draw_flowcharts.py    # 生成 report_images/ 下流程图
-python generate_report.py    # 生成课程设计报告 .docx
-```
-
-报告脚本依赖本仓库示例数据与流程说明，自定义地图后如需写入报告，请同步修改 `generate_report.py` 中的文字描述。
-
----
-
 ## 常见问题
 
 **Q: GUI 启动报错找不到 tkinter？**  
@@ -277,18 +263,6 @@ A: 安装中文字体，或在 `setup_matplotlib()` 中把 `font.sans-serif` 改
 
 **Q: 修改了 SPOTS 但界面没变？**  
 A: 确认保存的是 `campus_guide.py`，并重新启动程序（勿只重启部分模块缓存）。
-
-**Q: 上传 GitHub 时要忽略哪些文件？**  
-A: 建议忽略虚拟环境与缓存，例如：
-
-```gitignore
-.venv/
-__pycache__/
-*.pyc
-.idea/
-report_images/
-*.docx
-```
 
 ---
 
