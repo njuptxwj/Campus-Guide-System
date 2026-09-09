@@ -66,11 +66,6 @@ networkx>=3.0
 matplotlib>=3.7
 ```
 
-可选（仅生成 Word 报告时需要）：
-
-```text
-python-docx
-```
 
 标准库使用：`tkinter`、`heapq` 等，无需额外安装。
 
